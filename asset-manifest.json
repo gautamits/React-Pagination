@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "programming-gems/static/css/main.cedbbc82.chunk.css",
-    "main.js": "programming-gems/static/js/main.48931860.chunk.js",
-    "main.js.map": "programming-gems/static/js/main.48931860.chunk.js.map",
-    "runtime-main.js": "programming-gems/static/js/runtime-main.5adb8e65.js",
-    "runtime-main.js.map": "programming-gems/static/js/runtime-main.5adb8e65.js.map",
-    "static/js/2.a08baf53.chunk.js": "programming-gems/static/js/2.a08baf53.chunk.js",
-    "static/js/2.a08baf53.chunk.js.map": "programming-gems/static/js/2.a08baf53.chunk.js.map",
-    "index.html": "programming-gems/index.html",
-    "precache-manifest.e72ac7fbcb94c5e341fb47809517ea45.js": "programming-gems/precache-manifest.e72ac7fbcb94c5e341fb47809517ea45.js",
-    "service-worker.js": "programming-gems/service-worker.js",
-    "static/css/main.cedbbc82.chunk.css.map": "programming-gems/static/css/main.cedbbc82.chunk.css.map",
-    "static/js/2.a08baf53.chunk.js.LICENSE": "programming-gems/static/js/2.a08baf53.chunk.js.LICENSE"
+    "main.css": "/programming-gems/static/css/main.cedbbc82.chunk.css",
+    "main.js": "/programming-gems/static/js/main.4318cfee.chunk.js",
+    "main.js.map": "/programming-gems/static/js/main.4318cfee.chunk.js.map",
+    "runtime-main.js": "/programming-gems/static/js/runtime-main.fc0042cf.js",
+    "runtime-main.js.map": "/programming-gems/static/js/runtime-main.fc0042cf.js.map",
+    "static/js/2.a08baf53.chunk.js": "/programming-gems/static/js/2.a08baf53.chunk.js",
+    "static/js/2.a08baf53.chunk.js.map": "/programming-gems/static/js/2.a08baf53.chunk.js.map",
+    "index.html": "/programming-gems/index.html",
+    "precache-manifest.648b2df83c7aa52d922a01af5639161a.js": "/programming-gems/precache-manifest.648b2df83c7aa52d922a01af5639161a.js",
+    "service-worker.js": "/programming-gems/service-worker.js",
+    "static/css/main.cedbbc82.chunk.css.map": "/programming-gems/static/css/main.cedbbc82.chunk.css.map",
+    "static/js/2.a08baf53.chunk.js.LICENSE": "/programming-gems/static/js/2.a08baf53.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.5adb8e65.js",
+    "static/js/runtime-main.fc0042cf.js",
     "static/js/2.a08baf53.chunk.js",
     "static/css/main.cedbbc82.chunk.css",
-    "static/js/main.48931860.chunk.js"
+    "static/js/main.4318cfee.chunk.js"
   ]
 }
