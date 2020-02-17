@@ -8,7 +8,7 @@ const App: React.FC = () => {
 
   useEffect(()=>{
     async function getFacts(){
-      const result = await fetch(`https://programming-quotes-api.herokuapp.com/quotes/page/${currentPage}`)
+      const result = await fetch(`https://official-joke-api.appspot.com/random_ten`)
       const result2  = await result.json()
       setFacts(result2)
     }
@@ -17,9 +17,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <ul className="facts">
-        {facts.map(({id, en}, idx)=><li className="fact" key={id}>
-          {en}
-        </li>)}
+        {facts.map(({ id, type, setup, punchline }, idx) => <Quote key={id} {...{ id, type, setup, punchline}}/>)}
       </ul>
       <Pagination pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     </div>
@@ -47,6 +45,23 @@ const Pagination: React.FC<pagination> = ({ pageSize = 10, setPageSize = null, c
         )}
       </ul>
     </div>
+  )
+}
+
+interface quote{
+  id : number;
+  type : string;
+  setup: string
+  punchline: number;
+}
+
+const Quote: React.FC<quote> = ({ id, type, setup, punchline})=>{
+  const [active, setActive]  = useState(false)
+  return(
+    <li className="fact" onClick={e=>setActive(true)}>
+      <h5>{setup}</h5>
+      {active && <div>{punchline}</div>}
+    </li>
   )
 }
 
